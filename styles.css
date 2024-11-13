@@ -1,0 +1,66 @@
+/* Resetando algumas configurações padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0073e6;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pergunta {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pergunta:hover {
+    background-color: #b2ebf2;
+}
+
+.resposta {
+    background-color: #f1f8e9;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #0073e6;
+    display: none; /* Respostas começam escondidas */
+    border-radius: 8px;
+}
+
+.btn-revelar {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-revelar:hover {
+    background-color: #005bb5;
+}
